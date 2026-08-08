@@ -10,8 +10,7 @@ By analyzing real-world logistical and transactional data, this project aims to 
 * **Data Visualization & Strategy:** Power BI *(Data modeling and executive dashboard design)*
 
 ## 3. The Dashboard
-*(Pamerkan screenshot full dashboard Power BI `.png` lu di sini)*
-![Executive Dashboard](C:\Users\SOLIT\Documents\Olist E-Commerce Unit Economics\Dashboard.png)
+![Executive Dashboard](Dashboard.png)
 
 ## 4. Executive Summary: Operational Bottlenecks & Strategic Expansion
 
@@ -26,6 +25,6 @@ To mitigate margin deterioration and elevate customer retention, the enterprise 
 
 ## 5. SQL Query Documentation
 The data extraction and analysis were executed through a structured SQL workflow:
-* [`01_setup_database.sql`](C:\Users\SOLIT\Documents\Olist E-Commerce Unit Economics\sql\01_setup_database.sql): Initialized the primary relational tables (`orders` and `order_items`) to establish the transactional foundation.
-* [`02_setup_additional_tables.sql`](C:\Users\SOLIT\Documents\Olist E-Commerce Unit Economics\sql\02_setup_additional_tables.sql): Integrated secondary dimensions, including product categories and customer reviews, to enable sentiment and product performance tracking.
-* [`03_business_analysis.sql`](C:\Users\SOLIT\Documents\Olist E-Commerce Unit Economics\sql\03_business_analysis.sql): Executed complex aggregations to calculate freight-to-price ratios, measure the exact correlation between delivery delays and 1-star reviews, and map regional revenue against logistical costs.
+* [`01_setup_database.sql`](sql/01_setup_database.sql): Initialized the primary relational tables (`orders` and `order_items`) to establish the transactional foundation.
+* [`02_setup_additional_tables.sql`](sql/02_setup_additional_tables.sql): Integrated secondary dimensions, including product categories and customer reviews, to enable sentiment and product performance tracking.
+* [`03_business_analysis.sql`](sql/03_business_analysis.sql): Executed complex aggregations to calculate freight-to-price ratios, measure the exact correlation between delivery delays and 1-star reviews, and map regional revenue against logistical costs.
